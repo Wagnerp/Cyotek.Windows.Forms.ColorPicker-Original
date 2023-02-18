@@ -9,9 +9,6 @@
 // Found this code useful?
 // https://www.cyotek.com/contribute
 
-using System;
-using System.Drawing;
-
 namespace Cyotek.Windows.Forms
 {
   internal static class PaintHelper

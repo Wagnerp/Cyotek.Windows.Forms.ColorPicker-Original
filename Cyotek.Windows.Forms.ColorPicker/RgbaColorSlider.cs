@@ -6,21 +6,15 @@
 
 // If you use this code in your applications, donations or attribution are welcome
 
-using System;
-using System.ComponentModel;
-using System.Drawing;
-using System.Drawing.Drawing2D;
-using System.Windows.Forms;
-
 namespace Cyotek.Windows.Forms
 {
   public class RgbaColorSlider : ColorSlider
   {
     #region Constants
 
-    private static readonly object _eventChannelChanged = new object();
+    private static readonly object _eventChannelChanged = new();
 
-    private static readonly object _eventColorChanged = new object();
+    private static readonly object _eventColorChanged = new();
 
     #endregion
 

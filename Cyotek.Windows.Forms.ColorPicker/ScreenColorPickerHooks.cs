@@ -12,12 +12,6 @@
 // Mouse hook derived from https://docs.microsoft.com/en-us/archive/blogs/toub/low-level-mouse-hook-in-c
 // Keyboard hook derived from https://docs.microsoft.com/en-us/archive/blogs/toub/low-level-keyboard-hook-in-c
 
-using System;
-using System.ComponentModel;
-using System.Diagnostics;
-using System.Runtime.InteropServices;
-using System.Windows.Forms;
-
 namespace Cyotek.Windows.Forms
 {
   internal static class ScreenColorPickerHooks

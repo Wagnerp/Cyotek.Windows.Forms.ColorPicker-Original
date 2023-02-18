@@ -9,13 +9,6 @@
 // Found this code useful?
 // https://www.cyotek.com/contribute
 
-using System;
-using System.Collections.Generic;
-using System.Collections.ObjectModel;
-using System.Drawing;
-using System.IO;
-using System.Linq;
-
 namespace Cyotek.Windows.Forms
 {
   /// <summary>
@@ -29,7 +22,7 @@ namespace Cyotek.Windows.Forms
   {
     #region Instance Fields
 
-    private readonly object _lock = new object();
+    private readonly object _lock = new();
 
     private IDictionary<int, int> _indexedLookup;
 

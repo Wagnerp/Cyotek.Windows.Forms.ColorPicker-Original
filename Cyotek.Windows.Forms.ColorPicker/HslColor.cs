@@ -9,10 +9,6 @@
 // Found this code useful?
 // https://www.cyotek.com/contribute
 
-using System;
-using System.Drawing;
-using System.Text;
-
 namespace Cyotek.Windows.Forms
 {
   // http://en.wikipedia.org/wiki/HSL_color_space

@@ -9,12 +9,6 @@
 // Found this code useful?
 // https://www.cyotek.com/contribute
 
-using System;
-using System.ComponentModel;
-using System.Drawing;
-using System.Drawing.Drawing2D;
-using System.Windows.Forms;
-
 namespace Cyotek.Windows.Forms
 {
   [DefaultProperty("Color")]
@@ -29,33 +23,33 @@ namespace Cyotek.Windows.Forms
 
     #region Private Fields
 
-    private static readonly object _eventAlphaChanged = new object();
+    private static readonly object _eventAlphaChanged = new();
 
-    private static readonly object _eventColorChanged = new object();
+    private static readonly object _eventColorChanged = new();
 
-    private static readonly object _eventColorStepChanged = new object();
+    private static readonly object _eventColorStepChanged = new();
 
-    private static readonly object _eventDisplayLightnessChanged = new object();
+    private static readonly object _eventDisplayLightnessChanged = new();
 
-    private static readonly object _eventHslColorChanged = new object();
+    private static readonly object _eventHslColorChanged = new();
 
-    private static readonly object _eventLargeChangeChanged = new object();
+    private static readonly object _eventLargeChangeChanged = new();
 
-    private static readonly object _eventLightnessChanged = new object();
+    private static readonly object _eventLightnessChanged = new();
 
-    private static readonly object _eventLineColorChanged = new object();
+    private static readonly object _eventLineColorChanged = new();
 
-    private static readonly object _eventSecondarySelectionSizeChanged = new object();
+    private static readonly object _eventSecondarySelectionSizeChanged = new();
 
-    private static readonly object _eventSelectionSizeChanged = new object();
+    private static readonly object _eventSelectionSizeChanged = new();
 
-    private static readonly object _eventShowAngleArrowChanged = new object();
+    private static readonly object _eventShowAngleArrowChanged = new();
 
-    private static readonly object _eventShowCenterLinesChanged = new object();
+    private static readonly object _eventShowCenterLinesChanged = new();
 
-    private static readonly object _eventShowSaturationRingChanged = new object();
+    private static readonly object _eventShowSaturationRingChanged = new();
 
-    private static readonly object _eventSmallChangeChanged = new object();
+    private static readonly object _eventSmallChangeChanged = new();
 
     private double _alpha;
 

@@ -9,12 +9,6 @@
 // Found this code useful?
 // https://www.cyotek.com/contribute
 
-using System;
-using System.Drawing;
-using System.IO;
-using System.Reflection;
-using System.Windows.Forms;
-
 namespace Cyotek.Windows.Forms
 {
   internal static class ResourceManager
@@ -35,11 +29,11 @@ namespace Cyotek.Windows.Forms
 
     #region Private Methods
 
-    private static Cursor GetResourceCursor(string name) => new Cursor(ResourceManager.GetResourceStream(name));
+    private static Cursor GetResourceCursor(string name) => new(ResourceManager.GetResourceStream(name));
 
-    private static Icon GetResourceIcon(string name) => new Icon(ResourceManager.GetResourceStream(name));
+    private static Icon GetResourceIcon(string name) => new(ResourceManager.GetResourceStream(name));
 
-    private static Bitmap GetResourceImage(string name) => new Bitmap(ResourceManager.GetResourceStream(name));
+    private static Bitmap GetResourceImage(string name) => new(ResourceManager.GetResourceStream(name));
 
     private static Stream GetResourceStream(string name)
     {

@@ -9,25 +9,17 @@
 // Found this code useful?
 // https://www.cyotek.com/contribute
 
-using System;
-using System.ComponentModel;
-using System.Drawing;
-using System.Drawing.Drawing2D;
-using System.IO;
-using System.Linq;
-using System.Windows.Forms;
-
 namespace Cyotek.Windows.Forms
 {
   [DefaultEvent("PreviewColorChanged")]
   [DefaultProperty("Color")]
   public partial class ColorPickerDialog : Form
   {
-    private static readonly object _eventCustomColorsLoading = new object();
+    private static readonly object _eventCustomColorsLoading = new();
 
-    private static readonly object _eventCustomColorsSaving = new object();
+    private static readonly object _eventCustomColorsSaving = new();
 
-    private static readonly object _eventPreviewColorChanged = new object();
+    private static readonly object _eventPreviewColorChanged = new();
 
     private Color _color;
 

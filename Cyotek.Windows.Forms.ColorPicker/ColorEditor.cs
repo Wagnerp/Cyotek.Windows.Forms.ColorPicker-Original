@@ -9,11 +9,6 @@
 // Found this code useful?
 // https://www.cyotek.com/contribute
 
-using System;
-using System.ComponentModel;
-using System.Drawing;
-using System.Windows.Forms;
-
 namespace Cyotek.Windows.Forms
 {
   /// <summary>
@@ -29,27 +24,27 @@ namespace Cyotek.Windows.Forms
 
     private const int _minimumBarWidth = 30;
 
-    private static readonly object _eventColorChanged = new object();
+    private static readonly object _eventColorChanged = new();
 
-    private static readonly object _eventNubColorChanged = new object();
+    private static readonly object _eventNubColorChanged = new();
 
-    private static readonly object _eventNubOutlineColorChanged = new object();
+    private static readonly object _eventNubOutlineColorChanged = new();
 
-    private static readonly object _eventNubSizeChanged = new object();
+    private static readonly object _eventNubSizeChanged = new();
 
-    private static readonly object _eventOrientationChanged = new object();
+    private static readonly object _eventOrientationChanged = new();
 
-    private static readonly object _eventPreserveAlphaChannelChanged = new object();
+    private static readonly object _eventPreserveAlphaChannelChanged = new();
 
-    private static readonly object _eventShowAlphaChannelChanged = new object();
+    private static readonly object _eventShowAlphaChannelChanged = new();
 
-    private static readonly object _eventShowColorSpaceLabelsChanged = new object();
+    private static readonly object _eventShowColorSpaceLabelsChanged = new();
 
-    private static readonly object _eventShowHexChanged = new object();
+    private static readonly object _eventShowHexChanged = new();
 
-    private static readonly object _eventShowHslChanged = new object();
+    private static readonly object _eventShowHslChanged = new();
 
-    private static readonly object _eventShowRgbChanged = new object();
+    private static readonly object _eventShowRgbChanged = new();
 
     private Color _color;
 
@@ -444,7 +439,7 @@ namespace Cyotek.Windows.Forms
 
     #region Protected Properties
 
-    protected override Size DefaultSize => new Size(200, 260);
+    protected override Size DefaultSize => new(200, 260);
 
     /// <summary>
     /// Gets or sets a value indicating whether input changes should be processed.

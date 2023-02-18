@@ -9,10 +9,6 @@
 // Found this code useful?
 // https://www.cyotek.com/contribute
 
-using System;
-using System.Drawing;
-using System.Runtime.InteropServices;
-
 namespace Cyotek.Windows.Forms
 {
   internal static class NativeMethods

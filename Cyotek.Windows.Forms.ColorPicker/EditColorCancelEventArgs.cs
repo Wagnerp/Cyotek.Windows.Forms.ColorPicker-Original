@@ -1,7 +1,4 @@
-﻿using System.ComponentModel;
-using System.Drawing;
-
-namespace Cyotek.Windows.Forms
+﻿namespace Cyotek.Windows.Forms
 {
   public class EditColorCancelEventArgs : CancelEventArgs
   {

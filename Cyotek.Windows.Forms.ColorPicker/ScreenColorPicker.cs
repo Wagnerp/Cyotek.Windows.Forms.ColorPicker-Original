@@ -9,13 +9,6 @@
 // Found this code useful?
 // https://www.cyotek.com/contribute
 
-using System;
-using System.ComponentModel;
-using System.Drawing;
-using System.Drawing.Drawing2D;
-using System.Drawing.Imaging;
-using System.Windows.Forms;
-
 namespace Cyotek.Windows.Forms
 {
   /// <summary>
@@ -29,21 +22,21 @@ namespace Cyotek.Windows.Forms
   {
     #region Private Fields
 
-    private static readonly object _eventColorChanged = new object();
+    private static readonly object _eventColorChanged = new();
 
-    private static readonly object _eventGridColorChanged = new object();
+    private static readonly object _eventGridColorChanged = new();
 
-    private static readonly object _eventImageChanged = new object();
+    private static readonly object _eventImageChanged = new();
 
-    private static readonly object _eventSelected = new object();
+    private static readonly object _eventSelected = new();
 
-    private static readonly object _eventSelecting = new object();
+    private static readonly object _eventSelecting = new();
 
-    private static readonly object _eventShowGridChanged = new object();
+    private static readonly object _eventShowGridChanged = new();
 
-    private static readonly object _eventShowTextWithSnapshotChanged = new object();
+    private static readonly object _eventShowTextWithSnapshotChanged = new();
 
-    private static readonly object _eventZoomChanged = new object();
+    private static readonly object _eventZoomChanged = new();
 
     private Color _color;
 

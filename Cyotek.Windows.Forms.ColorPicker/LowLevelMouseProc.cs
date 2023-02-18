@@ -9,8 +9,6 @@
 // Found this code useful?
 // https://www.cyotek.com/contribute
 
-using System;
-
 namespace Cyotek.Windows.Forms
 {
   internal delegate IntPtr LowLevelMouseProc(int nCode, IntPtr wParam, IntPtr lParam);

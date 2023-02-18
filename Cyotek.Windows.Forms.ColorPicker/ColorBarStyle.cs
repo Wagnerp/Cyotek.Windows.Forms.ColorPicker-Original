@@ -1,4 +1,4 @@
-﻿namespace Cyotek.Windows.Forms
+namespace Cyotek.Windows.Forms
 {
   // Cyotek Color Picker controls library
   // Copyright © 2013-2017 Cyotek Ltd.

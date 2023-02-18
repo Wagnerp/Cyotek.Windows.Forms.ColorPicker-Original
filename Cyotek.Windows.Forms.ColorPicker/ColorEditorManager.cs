@@ -9,10 +9,6 @@
 // Found this code useful?
 // https://www.cyotek.com/contribute
 
-using System;
-using System.ComponentModel;
-using System.Drawing;
-
 namespace Cyotek.Windows.Forms
 {
   /// <summary>
@@ -28,17 +24,17 @@ namespace Cyotek.Windows.Forms
 
     private const double _rgbMultiplier = 0.00392156862745098;
 
-    private static readonly object _eventColorChanged = new object();
+    private static readonly object _eventColorChanged = new();
 
-    private static readonly object _eventColorEditorChanged = new object();
+    private static readonly object _eventColorEditorChanged = new();
 
-    private static readonly object _eventColorGridChanged = new object();
+    private static readonly object _eventColorGridChanged = new();
 
-    private static readonly object _eventColorWheelChanged = new object();
+    private static readonly object _eventColorWheelChanged = new();
 
-    private static readonly object _eventLightnessColorSliderChanged = new object();
+    private static readonly object _eventLightnessColorSliderChanged = new();
 
-    private static readonly object _eventScreenColorPickerChanged = new object();
+    private static readonly object _eventScreenColorPickerChanged = new();
 
     private Color _color;
 

@@ -9,19 +9,13 @@
 // Found this code useful?
 // https://www.cyotek.com/contribute
 
-using System;
-using System.ComponentModel;
-using System.Drawing;
-using System.Drawing.Drawing2D;
-using System.Windows.Forms;
-
 namespace Cyotek.Windows.Forms
 {
   public class LightnessColorSlider : ColorSlider, IColorEditor
   {
     #region Private Fields
 
-    private static readonly object _eventColorChanged = new object();
+    private static readonly object _eventColorChanged = new();
 
     private Brush _cellBackgroundBrush;
 

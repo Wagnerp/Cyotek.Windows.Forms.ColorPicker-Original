@@ -1,8 +1,3 @@
-using System;
-using System.Drawing;
-using System.IO;
-using System.Text;
-
 namespace Cyotek.Windows.Forms
 {
   // Cyotek Color Picker controls library

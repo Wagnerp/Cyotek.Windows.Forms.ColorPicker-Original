@@ -9,14 +9,6 @@
 // Found this code useful?
 // https://www.cyotek.com/contribute
 
-using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Drawing;
-using System.Drawing.Drawing2D;
-using System.Linq;
-using System.Windows.Forms;
-
 namespace Cyotek.Windows.Forms
 {
   /// <summary>
@@ -34,43 +26,43 @@ namespace Cyotek.Windows.Forms
 
     private readonly IDictionary<int, Rectangle> _colorRegions;
 
-    private static readonly object _eventAutoAddColorsChanged = new object();
+    private static readonly object _eventAutoAddColorsChanged = new();
 
-    private static readonly object _eventAutoFitChanged = new object();
+    private static readonly object _eventAutoFitChanged = new();
 
-    private static readonly object _eventCellBorderColorChanged = new object();
+    private static readonly object _eventCellBorderColorChanged = new();
 
-    private static readonly object _eventCellBorderStyleChanged = new object();
+    private static readonly object _eventCellBorderStyleChanged = new();
 
-    private static readonly object _eventCellContextMenuStripChanged = new object();
+    private static readonly object _eventCellContextMenuStripChanged = new();
 
-    private static readonly object _eventCellSizeChanged = new object();
+    private static readonly object _eventCellSizeChanged = new();
 
-    private static readonly object _eventColorChanged = new object();
+    private static readonly object _eventColorChanged = new();
 
-    private static readonly object _eventColorIndexChanged = new object();
+    private static readonly object _eventColorIndexChanged = new();
 
-    private static readonly object _eventColorsChanged = new object();
+    private static readonly object _eventColorsChanged = new();
 
-    private static readonly object _eventColumnsChanged = new object();
+    private static readonly object _eventColumnsChanged = new();
 
-    private static readonly object _eventCustomColorsChanged = new object();
+    private static readonly object _eventCustomColorsChanged = new();
 
-    private static readonly object _eventEditingColor = new object();
+    private static readonly object _eventEditingColor = new();
 
-    private static readonly object _eventEditModeChanged = new object();
+    private static readonly object _eventEditModeChanged = new();
 
-    private static readonly object _eventHotIndexChanged = new object();
+    private static readonly object _eventHotIndexChanged = new();
 
-    private static readonly object _eventPaletteChanged = new object();
+    private static readonly object _eventPaletteChanged = new();
 
-    private static readonly object _eventSelectedCellStyleChanged = new object();
+    private static readonly object _eventSelectedCellStyleChanged = new();
 
-    private static readonly object _eventShowCustomColorsChanged = new object();
+    private static readonly object _eventShowCustomColorsChanged = new();
 
-    private static readonly object _eventShowToolTipsChanged = new object();
+    private static readonly object _eventShowToolTipsChanged = new();
 
-    private static readonly object _eventSpacingChanged = new object();
+    private static readonly object _eventSpacingChanged = new();
 
     #endregion
 

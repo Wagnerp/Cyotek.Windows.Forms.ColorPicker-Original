@@ -9,13 +9,6 @@
 // Found this code useful?
 // https://www.cyotek.com/contribute
 
-using System;
-using System.ComponentModel;
-using System.Drawing;
-using System.Drawing.Drawing2D;
-using System.Linq;
-using System.Windows.Forms;
-
 namespace Cyotek.Windows.Forms
 {
   /// <summary>
@@ -28,43 +21,43 @@ namespace Cyotek.Windows.Forms
   {
     #region Private Fields
 
-    private static readonly object _eventBarBoundsChanged = new object();
+    private static readonly object _eventBarBoundsChanged = new();
 
-    private static readonly object _eventBarPaddingChanged = new object();
+    private static readonly object _eventBarPaddingChanged = new();
 
-    private static readonly object _eventBarStyleChanged = new object();
+    private static readonly object _eventBarStyleChanged = new();
 
-    private static readonly object _eventColor1Changed = new object();
+    private static readonly object _eventColor1Changed = new();
 
-    private static readonly object _eventColor2Changed = new object();
+    private static readonly object _eventColor2Changed = new();
 
-    private static readonly object _eventColor3Changed = new object();
+    private static readonly object _eventColor3Changed = new();
 
-    private static readonly object _eventCustomColorsChanged = new object();
+    private static readonly object _eventCustomColorsChanged = new();
 
-    private static readonly object _eventDividerStyleChanged = new object();
+    private static readonly object _eventDividerStyleChanged = new();
 
-    private static readonly object _eventLargeChangeChanged = new object();
+    private static readonly object _eventLargeChangeChanged = new();
 
-    private static readonly object _eventMaximumChanged = new object();
+    private static readonly object _eventMaximumChanged = new();
 
-    private static readonly object _eventMinimumChanged = new object();
+    private static readonly object _eventMinimumChanged = new();
 
-    private static readonly object _eventNubColorChanged = new object();
+    private static readonly object _eventNubColorChanged = new();
 
-    private static readonly object _eventNubOutlineColorChanged = new object();
+    private static readonly object _eventNubOutlineColorChanged = new();
 
-    private static readonly object _eventNubSizeChanged = new object();
+    private static readonly object _eventNubSizeChanged = new();
 
-    private static readonly object _eventNubStyleChanged = new object();
+    private static readonly object _eventNubStyleChanged = new();
 
-    private static readonly object _eventOrientationChanged = new object();
+    private static readonly object _eventOrientationChanged = new();
 
-    private static readonly object _eventShowValueDividerChanged = new object();
+    private static readonly object _eventShowValueDividerChanged = new();
 
-    private static readonly object _eventSmallChangeChanged = new object();
+    private static readonly object _eventSmallChangeChanged = new();
 
-    private static readonly object _eventValueChanged = new object();
+    private static readonly object _eventValueChanged = new();
 
     private static readonly float[] _pairPositions = { 0F, 1F };
 
