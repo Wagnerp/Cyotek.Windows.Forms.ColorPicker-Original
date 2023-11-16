@@ -2,6 +2,10 @@
 
 ## Change Log
 
+### 2.0.1
+
+* Support for .NET 8
+
 ### 2.0.0 (WIP)
 
 #### Added

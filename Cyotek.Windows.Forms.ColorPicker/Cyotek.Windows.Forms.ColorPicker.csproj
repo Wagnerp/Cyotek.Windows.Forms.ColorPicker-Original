@@ -2,7 +2,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
 	<PropertyGroup>
-		<TargetFrameworks>net462;net47;net471;net472;net48;net481;netcoreapp3.1;net5.0-windows;net6.0-windows;net7.0-windows</TargetFrameworks>
+		<TargetFrameworks>net462;net47;net471;net472;net48;net481;netcoreapp3.1;net5.0-windows;net6.0-windows;net7.0-windows;net8.0-windows</TargetFrameworks>
 		<UseWindowsForms>true</UseWindowsForms>
 		<RootNamespace>Cyotek.Windows.Forms</RootNamespace>
 		<LangVersion>preview</LangVersion>
@@ -58,10 +58,9 @@
 	<!-- Package Support -->
 
 	<PropertyGroup>
-		<Authors>Cyotek, pwaqner</Authors>
+		<Authors>Cyotek, Modifications made by Peter Wagner (aka. wagnerp)</Authors>
 		<Owners>Cyotek</Owners>
-		<VersionPrefix>2.0.0</VersionPrefix>
-		<VersionSuffix>beta.6</VersionSuffix>
+		<VersionPrefix>2.0.1</VersionPrefix>
 		<PackageLicenseExpression>MIT</PackageLicenseExpression>
 		<PackageProjectUrl>https://github.com/Wagnerp/Cyotek.Windows.Forms.ColorPicker-Original</PackageProjectUrl>
 		<RepositoryUrl>https://github.com/cyotek/Cyotek.Windows.Forms.ColorPicker.git</RepositoryUrl>
